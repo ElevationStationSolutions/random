@@ -1,60 +1,41 @@
 var namespace = "http://www.w3.org/2000/svg"
-
-
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
-function createFirstScene() {
-    
+function createOther() {
+   var x = Math.random
+   if(x < 0.1){
+   }else if(x < 0.2){
+   }else if(x < 0.3){
+   }else
 }
-
-
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
-function createSecondScene() {
-    
+function createMetal() {
+    makeRect(0,0,200,100,"white",1)
+    makeCircle(100,50,25,"green",0.5)
+
 }
-
-
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
-function createThirdScene() {
-    
+function createNonMetal() {
+    makeRect(0,0,200,100,"white",1)
+    makeCircle(100,50,25,"blue",0.5)
+ 
 }
-
-
-
-
-
-// FILL IN THIS FUNCTION!
-// This function is called whenever you press the "Go!" button.
 function createRandomScene() {
-    // Generate a random number between 0 and 1, and store it in a variable.
-    
-    // If the number is less than 0.33, call the function to create your first scene.
-    
-    
-    
-    // Else, if the number is less than 0.67, call the function to create your second scene.
-    
-    
-    
-    // Else, call the function to create your third scene.
-    
-    
-    
+    var n = Math.random()
+    if(n < 0.33){
+        createMetal()
+    }else if(n < 0.67){
+        createNonMetal()
+    }else{
+        createOther()
+    }
 }
-
-
-
-// DO NOT EDIT ANYTHING BELOW THIS LINE!
-// These are the functions you should call to
-// easily create shapes in JavaScript. Feel free
-// to check them out if you're curious how they
-// work, but don't change them!
-// <3 Ms. Squires
+//CORE FUNCTIONS:
 function makeCircle(cx, cy, r, fill, opacity) {
   var circle = document.createElementNS(namespace, "circle")
   circle.setAttribute("cx", cx)
