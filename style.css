@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
 #button-container {
     text-align: center;
+    padding: 20px
 }
-
-h1 {
+h1,h2 {
     text-align: center;
+}
+body{
+    background-image: url(http://www.pixeden.com/media/k2/galleries/44/002-metal-and-carbon-fiber-pattern-background-texture.jpg);
+    text-align: center;
+    font-family: "VT323";
+    color: white;
+}
+#canvas{
+    background-color: darkgray;
 }

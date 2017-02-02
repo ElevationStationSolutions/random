@@ -3,27 +3,32 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createOther() {
-   var x = Math.random
-   if(x < 0.1){
-   }else if(x < 0.2){
-   }else if(x < 0.3){
-   }else
+    var x = Math.random()
+    if(x < 0.1){
+    }else if(x < 0.2){
+    }else if(x < 0.3){
+    }else if(x < 0.4){
+    }else if(x < 0.5){
+    }else if(x < 0.6){
+    }else if(x < 0.7){
+    }else if(x < 0.8){
+    }else if(x < 0.9){
+    }else{
+    }
 }
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createMetal() {
-    makeRect(0,0,200,100,"white",1)
+    eraseCanvas()
     makeCircle(100,50,25,"green",0.5)
-
 }
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createNonMetal() {
-    makeRect(0,0,200,100,"white",1)
+    eraseCanvas()
     makeCircle(100,50,25,"blue",0.5)
- 
 }
 function createRandomScene() {
     var n = Math.random()
@@ -139,6 +144,10 @@ function makeImage(url, x, y, width, height, opacity) {
   image.setAttribute("width", width)
   image.setAttribute("height", height)
   image.setAttribute("opacity", opacity)
+  
+function eraseCanvas() {
+    makeRect(0,0,200,100,darkgray,1)
+}
   
   var canvas = document.getElementById("canvas")
   canvas.appendChild(image)
