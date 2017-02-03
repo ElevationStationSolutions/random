@@ -20,15 +20,125 @@ function createOther() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createMetal() {
-    eraseCanvas()
-    makeCircle(100,50,25,"green",0.5)
+    var y = Math.random()
+    if(y < 0.1){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else if(y < 0.2){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Au",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("79",117,26,5,"Sansita","white",1)
+        makeText("GOLD",90,60,10,"Sansita","black",1)
+        makeText("196.96",89,68,7,"Sansita","black",1)
+        makeText("*GOLD ONLY HAS ONE NATURALLY OCCURING ISOTOPE",5,90,10,"VT323",1)
+    }else if(y < 0.3){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Na",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("11",117,26,5,"Sansita","white",1)
+        makeText("SODIUM",85,60,10,"Sansita","black",1)
+        makeText("22.989",89,68,7,"Sansita","black",1)
+        makeText("*SODIUM ISN'T JUST SALT. IT IS ALSO USED IN NUCLEAR REACTORS!! ",5,90,8,"VT323",1)
+    }else if(y < 0.4){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else if(y < 0.5){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else if(y < 0.6){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else if(y < 0.7){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else if(y < 0.8){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else if(y < 0.9){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }else{
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+    }
 }
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createNonMetal() {
-    eraseCanvas()
-    makeCircle(100,50,25,"blue",0.5)
+    var z = Math.random()
+    if(z < 0.1){
+    }else if(z < 0.2){
+    }else if(z < 0.3){
+    }else if(z < 0.4){
+    }else if(z < 0.5){
+    }else if(z < 0.6){
+    }else if(z < 0.7){
+    }else if(z < 0.8){
+    }else if(z < 0.9){
+    }else{
+    }
 }
 function createRandomScene() {
     var n = Math.random()
@@ -40,6 +150,16 @@ function createRandomScene() {
         createOther()
     }
 }
+//TEST AREA:
+makeRect(0,0,200,100,"darkgray",1)
+makeRect(70,15,60,60,"gray",1)
+makeRect(75,20,50,50,"lightgreen",1)
+makeText("Fe",82,50,40,"Sansita","black",1)
+makeCircle(120,25,4,4,"black",1)
+makeText("26",117,26,5,"Sansita","white",1)
+makeText("IRON",90,60,10,"Sansita","black",1)
+makeText("55.845",89,68,7,"Sansita","black",1)
+makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
 //CORE FUNCTIONS:
 function makeCircle(cx, cy, r, fill, opacity) {
   var circle = document.createElementNS(namespace, "circle")
@@ -144,10 +264,6 @@ function makeImage(url, x, y, width, height, opacity) {
   image.setAttribute("width", width)
   image.setAttribute("height", height)
   image.setAttribute("opacity", opacity)
-  
-function eraseCanvas() {
-    makeRect(0,0,200,100,darkgray,1)
-}
   
   var canvas = document.getElementById("canvas")
   canvas.appendChild(image)
