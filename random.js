@@ -4,16 +4,56 @@ var namespace = "http://www.w3.org/2000/svg"
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createOther() {
     var x = Math.random()
-    if(x < 0.1){
-    }else if(x < 0.2){
-    }else if(x < 0.3){
+    if(x < 0.2){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"yellow",1)
+        makeText("Si",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("14",117,26,5,"Sansita","white",1)
+        makeText("SILICON",85,60,10,"Sansita","black",1)
+        makeText("28.085",89,68,7,"Sansita","black",1)
+        makeText("*SILICON IS FOUND IN COMPUTERS AND IN SOME WOMENS' BREASTS!",5,90,8,"VT323",1)
     }else if(x < 0.4){
-    }else if(x < 0.5){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"yellow",1)
+        makeText("As",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("33",117,26,5,"Sansita","white",1)
+        makeText("Arsenic",85,60,10,"Sansita","black",1)
+        makeText("74.921",89,68,7,"Sansita","black",1)
+        makeText("*ARESENIC IS USED IN BUG SPRAY!",5,90,10,"VT323",1)
     }else if(x < 0.6){
-    }else if(x < 0.7){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"yellow",1)
+        makeText("Sb",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("51",117,26,5,"Sansita","white",1)
+        makeText("ANTIMONY",85,60,10,"Sansita","black",1)
+        makeText("121.76",89,68,7,"Sansita","black",1)
+        makeText("*ANTIMONY MEANS NOT ALONE... I WISH I WAS ANTIMONY :(",5,90,8,"VT323",1)
     }else if(x < 0.8){
-    }else if(x < 0.9){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
     }else{
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightgreen",1)
+        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("26",117,26,5,"Sansita","white",1)
+        makeText("IRON",90,60,10,"Sansita","black",1)
+        makeText("55.845",89,68,7,"Sansita","black",1)
+        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
     }
 }
 // Fill in this function so that it draws something using SVG shapes!
@@ -108,19 +148,19 @@ function createMetal() {
         makeText("K",82,50,40,"Sansita","black",1)
         makeCircle(120,25,4,4,"black",1)
         makeText("19",117,26,5,"Sansita","white",1)
-        makeText("POTASSIUM",11,60,10,"Sansita","black",1)
+        makeText("POTASSIUM",80,60,10,"Sansita","black",1)
         makeText("39.098",89,68,7,"Sansita","black",1)
-        makeText("*THE AVERAGE BANANA HAS LESS THAN 0.5 GRAMOS OF POTASSIUM",5,90,10,"VT323",1)
+        makeText("*AVOCADOS HAVE MORE POTASSIUM THAN BANANAS!",5,90,10,"VT323",1)
     }else{
         makeRect(0,0,200,100,"darkgray",1)
         makeRect(70,15,60,60,"gray",1)
         makeRect(75,20,50,50,"lightgreen",1)
-        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeText("Ca",82,50,40,"Sansita","black",1)
         makeCircle(120,25,4,4,"black",1)
-        makeText("26",117,26,5,"Sansita","white",1)
-        makeText("IRON",90,60,10,"Sansita","black",1)
-        makeText("55.845",89,68,7,"Sansita","black",1)
-        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+        makeText("20",117,26,5,"Sansita","white",1)
+        makeText("Calcium",85,60,10,"Sansita","black",1)
+        makeText("40.078",89,68,7,"Sansita","black",1)
+        makeText("*CALCIUM REACTS WITH WATER TO PRODUCE HYDROGEN!",5,90,10,"VT323",1)
     }
 }
 // Fill in this function so that it draws something using SVG shapes!
@@ -128,16 +168,56 @@ function createMetal() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createNonMetal() {
     var z = Math.random()
-    if(z < 0.1){
-    }else if(z < 0.2){
-    }else if(z < 0.3){
+    if(z < 0.2){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightblue",1)
+        makeText("He",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("2",117,26,5,"Sansita","white",1)
+        makeText("Helium",85,60,10,"Sansita","black",1)
+        makeText("4.0026",89,68,7,"Sansita","black",1)
+        makeText("*INHALING A SMALL AMOUNT OF HELIUM MAKES YOU SOUND FUNNY! ",5,90,8,"VT323",1)
     }else if(z < 0.4){
-    }else if(z < 0.5){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightblue",1)
+        makeText("O",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("8",117,26,5,"Sansita","white",1)
+        makeText("Oxygen",85,60,10,"Sansita","black",1)
+        makeText("15.999",89,68,7,"Sansita","black",1)
+        makeText("*AIR IS ONLY 21% OXYGEN! PURE OXYGEN IS BAD NEWS... ",5,90,10,"VT323",1)
     }else if(z < 0.6){
-    }else if(z < 0.7){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightblue",1)
+        makeText("N",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("7",117,26,5,"Sansita","white",1)
+        makeText("Nitrogen",85,60,10,"Sansita","black",1)
+        makeText("14.006",89,68,7,"Sansita","black",1)
+        makeText("*THE AIR IN YOUR CHIP BAG IS ACTUALLY NITROGEN THAT KEEPS CHIPS FROM GETTING STALE! ",5,90,5,"VT323",1)
     }else if(z < 0.8){
-    }else if(z < 0.9){
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightblue",1)
+        makeText("Cl",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("17",117,26,5,"Sansita","white",1)
+        makeText("Chlorine",85,60,10,"Sansita","black",1)
+        makeText("35.453",89,68,7,"Sansita","black",1)
+        makeText("*Chlorine is in salt, swimming pools, and even the water you drink; but too much can kill you!",5,90,5,"VT323",1)
     }else{
+        makeRect(0,0,200,100,"darkgray",1)
+        makeRect(70,15,60,60,"gray",1)
+        makeRect(75,20,50,50,"lightblue",1)
+        makeText("Fl",82,50,40,"Sansita","black",1)
+        makeCircle(120,25,4,4,"black",1)
+        makeText("9",117,26,5,"Sansita","white",1)
+        makeText("Flourine",85,60,10,"Sansita","black",1)
+        makeText("18.998",89,68,7,"Sansita","black",1)
+        makeText("*FLOURINE REACTS VIOLENTLY TO EVERYTHING (LIKE SOME KIDS AT THIS SCHOOL)! ",5,90,6,"VT323",1)
     }
 }
 function createRandomScene() {
@@ -151,7 +231,6 @@ function createRandomScene() {
     }
 }
 //TEST AREA:
-
 //CORE FUNCTIONS:
 function makeCircle(cx, cy, r, fill, opacity) {
   var circle = document.createElementNS(namespace, "circle")
