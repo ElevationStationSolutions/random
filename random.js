@@ -31,29 +31,29 @@ function createOther() {
         makeText("Sb",82,50,40,"Sansita","black",1)
         makeCircle(120,25,4,4,"black",1)
         makeText("51",117,26,5,"Sansita","white",1)
-        makeText("ANTIMONY",85,60,10,"Sansita","black",1)
+        makeText("ANTIMONY",80,60,10,"Sansita","black",1)
         makeText("121.76",89,68,7,"Sansita","black",1)
         makeText("*ANTIMONY MEANS NOT ALONE... I WISH I WAS ANTIMONY :(",5,90,8,"VT323",1)
     }else if(x < 0.8){
         makeRect(0,0,200,100,"darkgray",1)
         makeRect(70,15,60,60,"gray",1)
-        makeRect(75,20,50,50,"lightgreen",1)
-        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeRect(75,20,50,50,"yellow",1)
+        makeText("Te",82,50,40,"Sansita","black",1)
         makeCircle(120,25,4,4,"black",1)
-        makeText("26",117,26,5,"Sansita","white",1)
-        makeText("IRON",90,60,10,"Sansita","black",1)
-        makeText("55.845",89,68,7,"Sansita","black",1)
-        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+        makeText("52",117,26,5,"Sansita","white",1)
+        makeText("TELLERIUM",80,60,10,"Sansita","black",1)
+        makeText("127.60",89,68,7,"Sansita","black",1)
+        makeText("*EXPOSURE TO TELLERIUM MAKES YOUR BREATH SMELL!",5,90,8,"VT323",1)
     }else{
         makeRect(0,0,200,100,"darkgray",1)
         makeRect(70,15,60,60,"gray",1)
-        makeRect(75,20,50,50,"lightgreen",1)
-        makeText("Fe",82,50,40,"Sansita","black",1)
+        makeRect(75,20,50,50,"yellow",1)
+        makeText("B",82,50,40,"Sansita","black",1)
         makeCircle(120,25,4,4,"black",1)
-        makeText("26",117,26,5,"Sansita","white",1)
-        makeText("IRON",90,60,10,"Sansita","black",1)
-        makeText("55.845",89,68,7,"Sansita","black",1)
-        makeText("*IRON IS THE MOST STABLE ELEMENT OF THE TABLE",5,90,10,"VT323",1)
+        makeText("5",117,26,5,"Sansita","white",1)
+        makeText("BORON",85,60,10,"Sansita","black",1)
+        makeText("10.81",89,68,7,"Sansita","black",1)
+        makeText("*BORON, CALIFORNIA HAS THE LARGEST BORAX MINE!",5,90,10,"VT323",1)
     }
 }
 // Fill in this function so that it draws something using SVG shapes!
@@ -230,7 +230,11 @@ function createRandomScene() {
         createOther()
     }
 }
-//TEST AREA:
+//DEFAULT AREA:
+makeText("TO GET STARTED, PRESS THE SHOW ELEMENT BUTTON!",10,40,10,"VT323",1)
+makeText("ELEMENT LEARNER v1.0 by Elevation Station Solutions",10,50,8,"VT323",1)
+makeText("Follow me on Instagram @elevationstationvideos",10,60,8,"VT323",1)
+makeText("And subscribe to my YouTube channel: Elevation Station Productions",10,70,7,"VT323",1)
 //CORE FUNCTIONS:
 function makeCircle(cx, cy, r, fill, opacity) {
   var circle = document.createElementNS(namespace, "circle")
